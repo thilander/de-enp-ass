@@ -23,9 +23,9 @@ Download de-enp-ass.py, open up the terminal, cd to that folder and run:
 
 This will generate three files in the same folder as the exported enpass file:
 
-`exported-from-enpass-logins.txt`
-`exported-from-enpass-secure-notes.txt`
-`exported-from-enpass-credit-cards.txt`
+`exported-from-enpass-logins.csv`
+`exported-from-enpass-secure-notes.csv`
+`exported-from-enpass-credit-cards.csv`
 
 For importing in 1password (mac), choose file->import, use button "options" in the lower left corner. 
 Choose .csv file and then "import credit cards", open the credit card file.
