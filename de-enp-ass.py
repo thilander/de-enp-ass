@@ -152,6 +152,7 @@ def main(file_path):
         write_csv_file(logins_path, logins, ['title', 'URL', 'username', 'password',
                                              'notes', 'email', 'label'])
         print('conversion complete')
+        enpass_file.close()
 
 
 if __name__ == '__main__':
