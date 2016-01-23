@@ -6,11 +6,15 @@ It's originally written to prepare files for import to 1password but could be mo
 ##Usage
 You must have python installed on your computer.
 Download de-enp-ass.py, open up the terminal, cd to that folder and run:
+
 ```python de-enp-ass.py /path/to/exported-from-enpass.txt```
+
 This will generate three files in the same folder as the exported enpass file:
+
 `exported-from-enpass-logins.txt`
 `exported-from-enpass-secure-notes.txt`
 `exported-from-enpass-credit-cards.txt`
+
 For importing in 1password (mac), choose file->import, use button "options" in the lower left corner. Choose .csv file and then "import credit cards", choose credit card file. Do it again for all types...
 
 ##Credit Cards
