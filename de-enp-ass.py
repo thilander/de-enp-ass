@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+# version 0.1.0
 
 # Copyright © 2016 Andreas Thilander <andreasthilander@gmail.com>
 # This work is free. You can redistribute it and/or modify it under the
