@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# version 0.1.0
+# version 0.1.1
 
 # Copyright © 2016 Andreas Thilander <andreasthilander@gmail.com>
 # This work is free. You can redistribute it and/or modify it under the
@@ -28,12 +28,8 @@ def get_item_notes(item):
         (like 'password' or 'username')
     """
     notes = '{}\n'.format('\n'.join(item.strip().split('\n')[1:]))
-    notes = re.sub('password (.*?)\n', '', notes, flags=re.I)
-    notes = re.sub('username (.*?)\n', '', notes, flags=re.I)
-    notes = re.sub('email (.*?)\n', '', notes, flags=re.I)
-    notes = re.sub('url (.*?)\n', '', notes, flags=re.I)
-    notes = re.sub('label (.*?)\n', '', notes, flags=re.I)
-    notes = re.sub('grouping: (.*?)\n', '', notes, flags=re.I)
+    for l in ['password', 'username', 'email', 'url', 'label', 'grouping:']:
+       notes = re.sub('{} (.*?)\n'.format(l), '', notes, flags=re.I)
     return notes
 
 
