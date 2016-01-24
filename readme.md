@@ -24,7 +24,9 @@ Download de-enp-ass.py, open up the terminal, cd to that folder and run:
 This will generate three files in the same folder as the exported enpass file:
 
 `exported-from-enpass-logins.csv`
+
 `exported-from-enpass-secure-notes.csv`
+
 `exported-from-enpass-credit-cards.csv`
 
 For importing in 1password (mac), choose file->import, use button "options" in the lower left corner. 
@@ -51,8 +53,9 @@ Once completed (if it ran without problems) you will see three more files on the
 ##Credit Cards
 Credit cards must have a Cardholder to be recognized.
 
-
-If it works, great!
+##Eh
+If it works for you, great!
+I made this mainly for myself because I had a sh#t ton of passwords and would have been a pain to manually migrate, but I really wanted to migrate. I figured others might benefit of it too.
 I may update the script to be better in the future... Feel free to contribute.
 
 ##Yup
